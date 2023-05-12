@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>网页标题</title>
+    <!-- 引入 css 的方式不变 -->
+    <link rel="stylesheet" href="https://unpkg.com/@ppzp/noty@0.0.7/content/index.css">
+  </head>
+  <body>
+    <button id="info">info</button>
+    <button id="warn">warn</button>
+    <button id="error">error</button>
+    <p>更多关于 @ppzp/noty 的用法请参阅<a href="https://github.ppz.cool/docs/">这个链接</a></p>
+
+    <!-- 你所用到的轮子都在这里“声明”一下 -->
+    <script type="importmap">
+      {
+        "imports": {
+          "@ppzp/noty": "https://unpkg.com/@ppzp/noty@0.0.7/index.js"
+        }
+      }
+    </script>
+    <!-- 声明之后，下面引入的 js 里，就可以 import 了 -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

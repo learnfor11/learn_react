@@ -7,4 +7,7 @@
 > 现在这个时代，英语依然是最重要的通用技能  
 
 当然可以先在这里，入个门
+> 使用 Chrome 或新版 edge，不要用 safari 或 ie
+
 + [01 index.html](./01/readme.md)
++ [02 使用轮子](./02/readme.md)
