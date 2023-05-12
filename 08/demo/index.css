@@ -1,0 +1,6 @@
+.c_component {
+  cursor: pointer;
+}
+.c_component:hover {
+  color: red;
+}
