@@ -1,0 +1,21 @@
+.dialog_root {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog_body {
+  background: white;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.dialog_header h5 {
+  display: inline-block;
+}
