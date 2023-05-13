@@ -1,4 +1,4 @@
-# 01 index.html
+# index.html
 目标：熟悉网页
 
 ### 一个最基本的网页

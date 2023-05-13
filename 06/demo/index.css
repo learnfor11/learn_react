@@ -1,0 +1,9 @@
+.gua_button {
+  line-height: 1; /* 文字行高为 1 倍高度 */
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background: red;
+  color: white;
+  outline: none; /* 去边框 */
+  border: none; /* 去边框 */
+}

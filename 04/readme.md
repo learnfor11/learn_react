@@ -1,4 +1,4 @@
-# 04 认识 React
+# 认识 React
 目标：认识 React
 
 React 很流行，那么 React 能帮我们做什么呢？  
