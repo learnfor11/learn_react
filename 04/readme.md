@@ -1,4 +1,6 @@
 # 04 认识 React
+目标：认识 React
+
 React 很流行，那么 React 能帮我们做什么呢？  
 
 以我浅薄的理解就是：  
@@ -88,10 +90,10 @@ function handleClick() { // handleClick 函数，既没返回元素，名字首�
 React 可以，但我不推荐你把样式也写在 React 里面！
 
 ##### jsx
-上面那种，把 html 和 js 混在一起的写法，叫做 jsx  
-尽管我觉得 jsx 不好看，但这不构成“不使用 jsx 的理由”  
-更贴合实际的理由是：jsx 不能直接在浏览器里运行  
-你要使用某种工具（如 babel、swc 等），先把 jsx “翻译”成 js 代码  
+上面那种，把 html 和 js 混在一起的写法，叫做 `jsx`  
+尽管我觉得 `jsx` 不好看，但这不构成“不使用 `jsx` 的理由”  
+更贴合实际的理由是：`jsx` 不能直接在浏览器里运行  
+你要使用某种工具（如 babel、swc 等），先把 `jsx` “翻译”成 js 代码  
 而这个教程里，我们是不使用“开发工具”的  
 
 所以这里使用另一种方案，比如上面的 Button 组件可以写成：
@@ -102,4 +104,6 @@ function Button() {
   // 上面这行代码：调用 $ 对象的 div 方法；并传入俩参数：一个对象 { onClick: handleClick }，一个字符串 '按钮'
 }
 ```
-上面的写元素的方式，并不是什么稀奇东西，实际只是 [React.createElement()](https://react.dev/reference/react/createElement) 函数的简写（还带了一点点优化）
+上面的写元素的方式，并不是什么稀奇东西，实际只是 [React.createElement()](https://react.dev/reference/react/createElement) 函数的简写（带了一点点优化）
+
+> 本章节没有 demo
